@@ -1,0 +1,10 @@
+.gradient-top-to-bottom {
+  background-image: linear-gradient(black, rgb(57, 53, 53));
+  color: white;
+}
+
+.menu-item-text {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+  font-size: 1em;
+}
