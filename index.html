@@ -72,6 +72,7 @@
         </div>
       </div>
     </section>
+
     <section id="skills" class="container pt-3">
       <div class="row">
         <div class="col">
@@ -80,13 +81,102 @@
       </div>
       <div class="row">
         <div class="col">
-          <ul>
-            <li>HTML, CSS</li>
-            <li>Javascript, Python</li>
-            <li>PostgreSQL</li>
-            <li>Node.js, Express</li>
-            <li>Cypress, Jest, Nightwatch.js</li>
+          <ul
+            class="nav nav-tabs flex-column flex-sm-row"
+            id="skillsTab"
+            role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                data-bs-toggle="tab"
+                data-bs-target="#languages-pane"
+                aria-current="page"
+                role="tab"
+                aria-selected="true"
+                >Languages</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#testing"
+                aria-current="page"
+                role="tab"
+                >Testing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#technologies"
+                aria-current="page"
+                role="tab"
+                >Technologies</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#processes"
+                aria-current="page"
+                role="tab"
+                >Processes</a
+              >
+            </li>
           </ul>
+          <div class="tab-content mb-3">
+            <div
+              class="tab-pane fade show active"
+              id="languages-pane"
+              role="tabpanel">
+              <h3>Currently Used</h3>
+              <ul>
+                <li>Javascript</li>
+                <li>Python</li>
+              </ul>
+              <h3>Previously Used</h3>
+              <ul>
+                <li>PHP</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li>Perl</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="testing" role="tabpanel">
+              <ul>
+                <li>Nightwatch.js</li>
+                <li>Cypress</li>
+                <li>Jest</li>
+                <li>React Testing Library</li>
+                <li>Pytest</li>
+                <li>Percy</li>
+                <li>Applitools</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="technologies" role="tabpanel">
+              <ul>
+                <li>Node</li>
+                <li>React</li>
+                <li>Postgresql</li>
+                <li>Github</li>
+                <li>Gitlab</li>
+                <li>CircleCI</li>
+                <li>Azure Devops</li>
+                <li>Storybook and Chromatic</li>
+                <li>Jira</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="processes" role="tabpanel">
+              <ul>
+                <li>Agile Testing Methodologies</li>
+                <li>Scrum and Agile</li>
+                <li>CI/CD Release Methodologies</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

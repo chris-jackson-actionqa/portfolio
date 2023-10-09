@@ -8,3 +8,13 @@
   font-family: "Audiowide", sans-serif;
   font-size: 1em;
 }
+
+.tab-content {
+  height: 280px;
+  padding: 10px;
+  border: 1px solid #555;
+}
+
+.tab-pane {
+  margin-top: 15px;
+}
