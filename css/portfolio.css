@@ -5,16 +5,58 @@
 
 .menu-item-text {
   color: white;
-  font-family: "Audiowide", sans-serif;
-  font-size: 1em;
+  font-family: "Arial", sans-serif;
+  font-size: 1.5em;
 }
 
 .tab-content {
-  height: 280px;
+  height: 300px;
+  overflow-y: auto;
   padding: 10px;
   border: 1px solid #555;
 }
 
 .tab-pane {
   margin-top: 15px;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.navbar ul {
+  background-color: black;
+}
+
+.navbar {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: black;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: red;
+}
+
+.nav-underline .nav-link {
+  border-bottom: 0 none;
+}
+
+body {
+  margin-bottom: 50em;
+}
+
+.navbar-toggler {
+  background-color: black;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  padding: 0px;
+  background-color: black;
+  margin-right: 0;
 }
